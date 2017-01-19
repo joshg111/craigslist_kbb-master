@@ -1,0 +1,71 @@
+
+make_model_list = ['toyota+corolla']
+
+start_urls = ['http://sandiego.craigslist.org/search/cto?sort=date&hasPic=1&auto_title_status=1&auto_fuel_type=1&auto_transmission=2&min_price=10500&max_price=11000&auto_make_model=toyota+corolla&min_auto_year=2000&max_auto_year=2014&min_auto_miles=0&max_auto_miles=140000']
+
+input_args = Namespace(excess_price=15, make_model=['toyota+corolla'], max_miles=140000, max_price=11000, max_year=2014, min_miles=0, min_price=10500, min_year=2000, transmission='automatic')
+
+
+here
+Found cars = 1
+here
+Found cars = 2
+here
+Found cars = 3
+here
+Failed to find model = Toyota, using input = corolla
+here
+Found cars = 4
+here
+Found cars = 5
+here
+Found cars = 6
+here
+Found cars = 7
+response url = https://www.kbb.com/toyota/corolla/2010/styles/?intent=buy-used
+craigs url = http://sandiego.craigslist.org/nsd/cto/5869211462.html
+MySpider.kbb_parsed = 1
+kbb_parse(...)
+url = http://www.kbb.com/toyota/corolla/2010/sedan-4d/?vehicleid=261636&intent=buy-used&condition=good&mileage=104439&pricetype=private-party&printable=true
+response url = https://www.kbb.com/toyota/corolla/2014/styles/?intent=buy-used&bodystyle=sedan
+craigs url = http://losangeles.craigslist.org/wst/cto/5895157083.html
+MySpider.kbb_parsed = 2
+kbb_parse(...)
+url = http://www.kbb.com/toyota/corolla/2014/l-sedan-4d/?vehicleid=392454&intent=buy-used&category=sedan&condition=good&mileage=60000&pricetype=private-party&printable=true
+response url = https://www.kbb.com/toyota/corolla/2012/styles/?intent=buy-used&bodystyle=sedan
+craigs url = http://inlandempire.craigslist.org/cto/5910351530.html
+MySpider.kbb_parsed = 3
+kbb_parse(...)
+url = http://www.kbb.com/toyota/corolla/2012/l-sedan-4d/?vehicleid=371593&intent=buy-used&category=sedan&condition=good&mileage=53500&pricetype=private-party&printable=true
+response url = https://www.kbb.com/toyota/corolla/2011/styles/?intent=buy-used&bodystyle=other
+craigs url = http://losangeles.craigslist.org/sfv/cto/5893320087.html
+MySpider.kbb_parsed = 4
+kbb_parse(...)
+url = http://www.kbb.com/toyota/corolla/2011/sedan-4d/?vehicleid=360136&intent=buy-used&category=other&condition=good&mileage=72353&pricetype=private-party&printable=true
+response url = https://www.kbb.com/toyota/corolla/2012/styles/?intent=buy-used
+craigs url = http://losangeles.craigslist.org/wst/cto/5931482075.html
+MySpider.kbb_parsed = 5
+kbb_parse(...)
+url = http://www.kbb.com/toyota/corolla/2012/l-sedan-4d/?vehicleid=371593&intent=buy-used&condition=good&mileage=71000&pricetype=private-party&printable=true
+response url = https://www.kbb.com/toyota/corolla/2012/styles/?intent=buy-used&bodystyle=sedan
+craigs url = http://sandiego.craigslist.org/nsd/cto/5916288499.html
+MySpider.kbb_parsed = 6
+kbb_parse(...)
+url = http://www.kbb.com/toyota/corolla/2012/l-sedan-4d/?vehicleid=371593&intent=buy-used&category=sedan&condition=good&mileage=53800&pricetype=private-party&printable=true
+response url = https://www.kbb.com/toyota/corolla/2014/styles/?intent=buy-used
+craigs url = http://losangeles.craigslist.org/lac/cto/5890311960.html
+MySpider.kbb_parsed = 7
+kbb_parse(...)
+url = http://www.kbb.com/toyota/corolla/2014/l-sedan-4d/?vehicleid=392454&intent=buy-used&condition=good&mileage=34740&pricetype=private-party&printable=true
+
+
+spiders finished crawling
+
+
+url = http://www.kbb.com/toyota/corolla/2011/sedan-4d/?vehicleid=360136&intent=buy-used&category=other&condition=good&mileage=72353&pricetype=private-party&printable=true
+url = http://www.kbb.com/toyota/corolla/2014/l-sedan-4d/?vehicleid=392454&intent=buy-used&category=sedan&condition=good&mileage=60000&pricetype=private-party&printable=true
+url = http://www.kbb.com/toyota/corolla/2010/sedan-4d/?vehicleid=261636&intent=buy-used&condition=good&mileage=104439&pricetype=private-party&printable=true
+url = http://www.kbb.com/toyota/corolla/2014/l-sedan-4d/?vehicleid=392454&intent=buy-used&condition=good&mileage=34740&pricetype=private-party&printable=true
+url = http://www.kbb.com/toyota/corolla/2012/l-sedan-4d/?vehicleid=371593&intent=buy-used&condition=good&mileage=71000&pricetype=private-party&printable=true
+url = http://www.kbb.com/toyota/corolla/2012/l-sedan-4d/?vehicleid=371593&intent=buy-used&category=sedan&condition=good&mileage=53800&pricetype=private-party&printable=true
+url = http://www.kbb.com/toyota/corolla/2012/l-sedan-4d/?vehicleid=371593&intent=buy-used&category=sedan&condition=good&mileage=53500&pricetype=private-party&printable=true
